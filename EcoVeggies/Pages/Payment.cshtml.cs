@@ -47,7 +47,7 @@ namespace EcoVeggies.Pages
                 orderDataAccess.SaveOrder(order);//Saves order in order.JSON
             }
         }
-        //
+
         public IActionResult OnPostPayment()
         {
             return RedirectToPage("/Receipt", order);     //Send order to /Receipt, OnGet()

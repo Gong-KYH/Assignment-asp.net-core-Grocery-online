@@ -28,16 +28,12 @@ namespace EcoVeggies.Pages
             _product = product;
             Products = _product.GetAll().ToList();
         }
-        public void OnPost()
-        {
-
-        }
-
-        public IActionResult OnGetAsync(string searchString)
+     
+        public IActionResult OnGet(string searchString)
         {
             if (string.IsNullOrEmpty(searchString))
             {
-                RedirectToPage("/index");
+                RedirectToPage("/Index");
             }
             else
             {

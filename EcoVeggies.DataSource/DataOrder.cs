@@ -7,7 +7,7 @@ namespace EcoVeggies.DataSource
 {
     public class DataOrder
     {
-        string path = @"C:\Users\love_\source\repos\EcoVeggies\EcoVeggies.DataSource\JSONDataSource\Order.json";
+        string path = @"C:\Users\gongm\Source\Repos\Gong-KYH\EcoVeggies\EcoVeggies.DataSource\JSONDataSource\Order.json";
 
         public string GetData()
         {

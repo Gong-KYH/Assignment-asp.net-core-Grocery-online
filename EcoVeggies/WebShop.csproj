@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EcoVeggies.DataSource\EcoVeggies.DataSource.csproj" />
+    <ProjectReference Include="..\EcoVeggies.DataSource\WebShop.DataSource.csproj" />
   </ItemGroup>
 
 </Project>

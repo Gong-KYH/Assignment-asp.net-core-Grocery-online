@@ -1,3 +1,1 @@
-[
-  
-]
+[{"id":1,"name":"Crab","imgsrc":"https://content.codecademy.com/courses/asp-dot-net/food_icons/crab.png","price":9.99,"desc":"Always fresh, never frozen. Flaky and delicate crab for steaming or stewing."},{"id":1,"name":"Crab","imgsrc":"https://content.codecademy.com/courses/asp-dot-net/food_icons/crab.png","price":9.99,"desc":"Always fresh, never frozen. Flaky and delicate crab for steaming or stewing."},{"id":6,"name":"Chili Pepper","imgsrc":"https://content.codecademy.com/courses/asp-dot-net/food_icons/chili-pepper.png","price":3.99,"desc":"Bright red, spicy Chili Peppers. Add heat to all of your favorite dishes."},{"id":5,"name":"Broccoli","imgsrc":"https://content.codecademy.com/courses/asp-dot-net/food_icons/broccoli.png","price":4.99,"desc":"Nutritious and low in calories! Fresh green Broccoli that has a satisfying crunch."}]

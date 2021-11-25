@@ -21,6 +21,10 @@ namespace EcoVeggies.Models
        
         //public Customer Customer { get; set; }
 
+        public double GetTotalCost()
+        {
+            return ListCartItems.Sum(x => x.Price);
+        }
         
 
         //public Order(int orderId, int customerId, List<Item> listCartItems)

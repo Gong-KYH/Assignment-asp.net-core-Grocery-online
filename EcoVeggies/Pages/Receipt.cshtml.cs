@@ -18,7 +18,7 @@ namespace EcoVeggies.Pages
 
         public bool IsPaid { get; set; }
         public Order thisOrder { get; set; }
-        public string feedback; //Sätt feedback
+        public string feedback; //Set Feedback
         public List<Item> ListCartItems { get; set; }
 
         public ReceiptModel(ICustomer customerDataAccess, ICart cartDataAccess, IOrder orderDataAccess)
@@ -45,7 +45,6 @@ namespace EcoVeggies.Pages
             if (IsPaid == true)
             {
                 feedback = "Payment succesful";
-                //ListOrder = orderDataAccess.GetAll().ToList();
                 ListCartItems = orders[index].ListCartItems;
             }
         }

@@ -17,11 +17,12 @@
     @foreach (var item in Model.ListCartItems)
     {
         <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src=@item.ImageSrc  alt=@item.Name>
             <div class="card-body">
                 <h5 class="card-title">@item.Name</h5>
                 <h4 class="card-title">@item.Price</h4>
-                <a asp-page="/index" class="btn btn-primary">back to home</a>
             </div>
         </div>
     }
+    <a asp-page="/index" class="btn btn-primary">back to home</a>
 </div>
